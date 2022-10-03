@@ -15,12 +15,14 @@
         column-gap: 30px;
         justify-content: center;
     }
-    // &__list {
-    // }
+    &__list {
+        margin: 0 auto;
+    }
 
     &__item {
         margin-top: 20px;
         color: #ffffff;
+        text-align: center;
         @include font(400, 16px, 22px, 0.02em);
         &::before{
             content:"\2720";
