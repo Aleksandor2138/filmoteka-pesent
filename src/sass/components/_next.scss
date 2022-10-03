@@ -1,7 +1,9 @@
 .next {
     padding: 40px 0;
-    // & .container {
-    // }
+    & .container {
+        display: flex;
+        flex-direction: column;
+    }
 
     &__head {
         color: #ffffff;
@@ -22,7 +24,6 @@
     &__item {
         margin-top: 20px;
         color: #ffffff;
-        text-align: center;
         @include font(400, 16px, 22px, 0.02em);
         &::before{
             content:"\2720";
