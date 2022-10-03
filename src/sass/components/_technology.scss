@@ -1,0 +1,37 @@
+.technology {
+    padding: 40px 0;
+    background-color: #343d44;
+    // & .container {
+    // }
+
+    &__head {
+        color: #ffffff;
+        @include font(400, 28px, 33px, 0.02em);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    &__bottom{
+        display: flex;
+        column-gap: 200px;
+        justify-content: center;
+    }
+    &__text{
+        margin-top: 20px;
+        color: #ffffff;
+        @include font(600, 16px, 22px, 0.1em);
+    }
+    // &__list {
+    // }
+
+    &__item {
+        margin-top: 20px;
+        color: #ffffff;
+        @include font(400, 16px, 22px, 0.02em);
+        &::before{
+            content:"\2720";
+            margin-right: 20px;
+            color: var(--accent-color);
+        }
+    }
+}

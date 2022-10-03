@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  display: block;
+  max-width: 480px;
+  padding: 0 20px;
+}
+
+@include tablet {
+  .container {
+    max-width: 768px;
+    padding: 0 30px;
+  }
+}
+
+@include desktop {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+
+
+

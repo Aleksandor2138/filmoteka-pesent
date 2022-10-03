@@ -1,0 +1,47 @@
+
+.header {
+  position: relative;
+  background-image: url(../images/bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+  padding: 40px 0;
+  
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  &__name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 0 auto;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    @include font(500, 45px, 48px, 0.03em);
+  }
+}
+.logo{
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  @include font(500, 25px, 25px, 0.03em);
+  &__link{
+    display: flex;
+    align-items: center;
+  }
+  &__icon {
+    fill: transparent;
+    stroke: white;
+    margin-right: 8px;
+    background-color: transparent;
+  }
+  &__web {
+    @include font(500, 30px, 35px, 0em);
+    color: #FFFFFF;
+  }
+}
+
+

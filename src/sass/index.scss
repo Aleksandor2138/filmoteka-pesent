@@ -1,2 +1,19 @@
-@import './common';
-@import './example';
+@import './components/nightMode';
+
+@import './utils/variables';
+@import './utils/vissualy-hidden';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './utils/brakepoints';
+
+@import './components/body';
+@import './components/container';
+@import './components/header';
+@import './components/teams';
+@import './components/exercise';
+@import './components/release';
+@import './components/technology';
+@import './components/top';
+@import './components/pages';
+@import './components/footer';
+@import './components/footer-modal'
