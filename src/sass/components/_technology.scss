@@ -6,7 +6,7 @@
 
     &__head {
         color: #ffffff;
-        @include font(400, 28px, 33px, 0.02em);
+        @include font(400, 30px, 33px, 0.02em);
         text-align: center;
         margin-bottom: 20px;
     }
@@ -19,7 +19,7 @@
     &__text{
         margin-top: 20px;
         color: #ffffff;
-        @include font(600, 16px, 22px, 0.1em);
+        @include font(400, 24px, 26px, 0.02em);
     }
     // &__list {
     // }
@@ -27,7 +27,7 @@
     &__item {
         margin-top: 20px;
         color: #ffffff;
-        @include font(400, 16px, 22px, 0.02em);
+        @include font(400, 24px, 26px, 0.02em);
         &::before{
             content:"\2720";
             margin-right: 20px;

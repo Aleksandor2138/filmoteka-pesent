@@ -8,16 +8,16 @@
     }
 
     &__img {
-        width: 380px;
-        height: 380px;
+        width: 350px;
+        height: 350px;
         border-radius: 50%;
     }
 
     &__right {
-        width: 800px;
+        width: 900px;
         margin: 0 70px;
         color: #ffffff;
-        @include font(400, 16px, 22px, 0.02em);
+        @include font(400, 24px, 26px, 0.02em);
     }
 
     // &__text {
